@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title>TiketiRW Pro — Offline QR · USSD Entry · Multi-Role Platform</title>
+    <title>TiketiRW — Smart Ticketing Platform | Customer · Admin · Worker · Performer</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -25,6 +25,27 @@
     </aside>
     <main class="main" id="mainContent"></main>
 </div>
+
+<!-- Load all modules in order -->
+<script src="utils/helpers.js"></script>
+<script src="utils/auth.js"></script>
+<script src="utils/qr.js"></script>
+<script src="data/database.js"></script>
+<script src="components/cards.js"></script>
+<script src="components/modals.js"></script>
+<script src="components/sidebar.js"></script>
+<script src="pages/home.js"></script>
+<script src="pages/events.js"></script>
+<script src="pages/wallet.js"></script>
+<script src="pages/transfer.js"></script>
+<script src="pages/group.js"></script>
+<script src="pages/ussd.js"></script>
+<script src="pages/gate.js"></script>
+<script src="pages/admin.js"></script>
+<script src="pages/performer.js"></script>
+<script src="pages/login.js"></script>
+<script src="pages/event-detail.js"></script>
 <script src="app.js"></script>
+
 </body>
 </html>
